@@ -44,11 +44,11 @@ section {
 /* Hero Section Styles */
 .hero {
   /* Set a background image that covers the whole section */
-  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80');
+  background-image: url('https://cdn2.dropmarkusercontent.com/52043/f93e3e41ad73898b3bc58408a417cbb325d500dcd471c474780b90d280c110bf/preview/Malawi_2023_CG-9302.jpg?Expires=1751863331&Signature=alLkLG1cAQvbP1cGhfLtDPu4Nbn~MIBMZrs-37V6ePSFUEZC~acdH6MHTmAFkPn-n0Fcfe-KO8mM3JG~5S3BYQq3qUirQ6vnO9peU6Aqdj8lv8YcNUENc0miY1nhoaqz~lDGCPcQBLN7TvbPSnv6~pi5iS8JsnMKjT-XpbPfP88Rsm-1Q9mnX1T~1gfCZV-6Usa~2weuWqagRSs3-r35I86fHVj9rhNzZnrzOM2-yLic9MB3rGfZAwHEADkJ~mb6LNiPr6kMC4NNd~5pK3mtu6pe5hNeHKmPJrr2F-7xrejvZDgnfazwx5qM8v1SLMhFzUP9ucoOJNYPRXnLgxj3GA__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ');
   background-size: cover;      /* Make the image cover the whole area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  color: #FFC907;              /* Yellow text for contrast */
+  color: #FFF7E1;              /* Yellow text for contrast */
   text-align: center;          /* Center the text */
   padding: 60px 20px;          /* Add space above and below */
   border-radius: 0 0 16px 16px; /* Only round bottom corners */
@@ -74,15 +74,15 @@ section {
 
 /* Story Section Styles */
 .story {
-  background-color: #FFF7E1; /* Brand blue */
-  color: #fff;
+  background-color: #BF6C46; /* Brand blue */
+  color: #FFF7E1;
   text-align: center;
   padding: 30px 20px;
 }
 
 /* Add accent color to section headings */
 h2 {
-  color: #BF6C46; /* Primary blue */
+  color: #10100f; /* Primary blue */
   margin-top: 0;
   font-weight: bold;
 }
