@@ -1,53 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity: Water Landing Page</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Project‑level stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Yellow variant button */
+    .btn-yellow {
+      background: var(--yellow);
+      color: var(--text-dark);
+      border: 2px solid var(--yellow);
+    }
+    .btn-yellow:hover {
+      background: transparent;
+      color: var(--yellow);
+    }
+  </style>
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Give clean water in seconds, see your impact instantly.</h1>
-        <!-- Subheadline -->
-        <p>Charity: Water makes it fast and effortless to fund life-changing clean water projects right from your phone
-</p>
-    </section>
+  <!-- ───────────────────────── Hero ───────────────────────── -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content container">
+      <h1>Give Clean Water in Seconds</h1>
+      <p>See your impact instantly—fund life‑changing clean‑water projects with just a tap.</p>
+      <a href="#" class="btn btn-yellow">Make a Difference</a>
+    </div>
+  </section>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-          Founded in 2006 by Scott Harrison- a former NYC nightclub promoter turned humanitarian after volunteering on Mercy Ships, Charity: Water began with a bold idea: fund clean water projects in developing nations using social and innovative methods 
-          From a launch party that raised $15,000 for African wells, they grew through viral grassroots efforts like “donate your birthday”, encouraging supporters to ask for donations instead of gifts .
-          Their ethos of radical transparency means every public dollar funds projects directly, with GPS coordinates and publicly shared photos demostrating each dollar's impact.
-        </p>
-    </div> 
-    </section>
+  <!-- ───────────────────────── Story ───────────────────────── -->
+  <section class="story container">
+    <h2>Our Story</h2>
+    <p>
+      Since 2006, <strong>Charity: water</strong> has funded sustainable,
+      community‑owned water projects in 29 countries. We believe <em>every person</em>
+      deserves access to clean, safe drinking water—and 100% of public donations go straight to the field to make that happen.
+    </p>
+  </section>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
+  <!-- ─────────────── Real‑World Impact Story ─────────────── -->
+  <section class="impact-story">
+    <div class="impact-content container">
+      <div class="impact-text">
         <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src=https://cdn2.dropmarkusercontent.com/52043/bacc2284199ac67a75deba07e077f4cb1b5d875a350f4ce56a4ed4668999ef25/preview/6430_Ethiopia_2019_CG-.jpg?Expires=1752465707&Signature=gZnk14K4DUT51ZnwgQ0lobYp8tzMV0APDCePw3HDblJ9itaDtjBtz1iday2vo86cvmyX8~5XAsPM4g7~CUUc0eXfcFg-hjL5rJVgavHwixHS1ODZ~WV-ES8TezdRaGFVWuXcU-f40OqXW81nAb27okaEP3XS0jW4ihKiFW6j4PVGfYpZ4wtyVsSdQFlNaz92H8MQ2nWiKeVYAHxnTpq5Q1qRSaOKNHVCTv3Lo0LHEy05-7mAKUnwS4XD7d1BDMhRytixYKfyoeVVK5tyuiuy2zwBEjEaI~33GmMcbFwEO8smNwG2B3gy4fC-oYqJp8n59wsE~JXmIWCfEYmjW0TQgw__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ
-             alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
+        <p>
+          Amina used to walk miles every day to collect water for her family. Thanks to supporters like you, her village now has a clean‑water well. She can attend school, her family is healthier, and her future is brighter.
+        </p>
+      </div>
+      <div class="impact-image-wrapper">
+        <!-- Local image in /img -->
+        <img src="img/impact.png" alt="Amina smiling with clean water" class="impact-image">
+      </div>
+    </div>
+  </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Make A Difference</a>
-    </section>
+  <!-- ──────────────────────── CTA ───────────────────────── -->
+  <section class="call-to-action container">
+    <h2>Make a Difference</h2>
+    <p>Your gift brings clean water and hope to families around the world.</p>
+    <a href="#" class="btn btn-yellow">Donate Now</a>
+  </section>
+
 </body>
 </html>
+
+# hi
